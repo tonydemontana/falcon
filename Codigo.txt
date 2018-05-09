@@ -3,5 +3,10 @@ Include sfr.h
 Loop
 {
 print("anything");
+call function sad(3,2)
 }
 
+sad (int, int)
+{
+run once;
+}
